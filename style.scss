@@ -1,0 +1,61 @@
+
+
+h1,h2{
+  font-family: "Times New Roman";
+}
+
+.quotes{
+  background-color: white;
+  width: 33%;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 35px;
+  height: auto;
+  color: black;
+}
+
+.quote{
+  font-size: 40px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.author{
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.buttons{
+  width: 400px;
+  margin: auto;
+  display:inline-block;
+
+}
+#botonFrase{
+    background-color: white; /* Green */
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 25%;
+    outline: 0;  //para sacar el borde azul al hacer click al boton
+}
+#botonFrase:hover {
+    background-color: #E0E0E0;
+    color: black;
+    outline: 0;  //para sacar el borde azul al hacer click al boton
+}
+#tweet{
+  float: left;
+  margin-top: 24px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  margin-left: 20px;
+
+}
