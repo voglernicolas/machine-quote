@@ -4,17 +4,26 @@ h1,h2{
   font-family: "Times New Roman";
 }
 
+
 .quotes{
-  background-color: white;
-  width: 33%;
-  margin-top: 10%;
+  border-radius: 3px;
+  transition: all 2s;
+  opacity: 0.5;
+  width: 50%;
+  margin-top: 11%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 10%;
   padding: 35px;
-  height: auto;
   color: black;
+  background-color: white;
+
 }
 
+.quotes:hover { //accion sobre el cuadro
+  transition: all 2s;
+  opacity: 0.7;
+}
 .quote{
   font-size: 40px;
   font-family: 'Josefin Slab', serif;
